@@ -1,0 +1,25 @@
+{
+    "name": "omed/orm-component",
+    "description": "ORM Component for Omed",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthonius Munthi",
+            "email": "me@itstoni.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Omed\\Component\\ORM\\": ""
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.7.3"
+    }
+}
